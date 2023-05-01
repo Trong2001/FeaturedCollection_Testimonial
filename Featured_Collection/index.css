@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #fffdf4;
+}
+
+#Featured {
+  max-width: 1300px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.clear {
+  height: 30px;
+}
+
+.introduce {
+}
+
+.introduce_title {
+  font-size: 45px;
+  color: #374639;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.introduce_detail {
+  font-weight: 400;
+  font-size: 19px;
+  color: #3f514b;
+  width: 40%;
+}
+
+.product {
+}
+
+.product_card {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+  font-weight: 400;
+}
+
+.product_card-image img {
+  width: 100%;
+}
+
+.product_card-title {
+  font-size: 20px;
+  color: #414f42;
+  padding-top: 10px;
+}
+
+.product_card-detail {
+  font-size: 17px;
+  width: 308px;
+  color: #3f514b;
+}
+
+.product_card-price {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.price-before {
+  font-size: 13px;
+  text-decoration: line-through;
+  padding-right: 6px;
+  color: #72776c;
+}
+
+.price-after {
+  font-size: 18px;
+  color: #3f514b;
+}
+
+.product_card-work {
+}
+
+.week_work {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid #ecedec;
+}
+
+.week {
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-right: 20px;
+  color: #72776c;
+}
+
+.method {
+  font-size: 14px;
+  color: #4e5c58;
+}
+
+
+
+/* reponsive */
+@media screen and (max-width: 1024px) {
+  .product_card {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .introduce{
+    padding-left: 10px;
+  }
+
+  .introduce_detail {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product_card {
+    width: 100%;
+  }
+
+  .introduce_detail {
+    width: 100%;
+  }
+}
